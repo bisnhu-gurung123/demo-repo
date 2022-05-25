@@ -1,0 +1,11 @@
+
+@mixin boxModel($values, $className, $direction) {
+  @each $size in $values {
+    #{'.'+$className +'-'+ $size} {
+      @each $property in $direction {
+        #{$property}: #{$size}px;
+        #{$property}: #{$size}px !important;
+      }
+    }
+  }
+}

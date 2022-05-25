@@ -1,0 +1,17 @@
+@import 'apps/cvbank/src/assets/styles/variables';
+//this mixin will produce class for background and color.
+@mixin color($colors, $className, $direction) {
+  @each $color in $colors {
+    @each $name, $color-hex in $theme-colors {
+      @if $name == $color {
+        #{'.'+$color+'-'+$className} {
+          #{$direction}: #{$color-hex} !important;
+        }
+      }
+    }
+  }
+}
+
+$theme-colors: (
+  'primary': $primary-color
+);

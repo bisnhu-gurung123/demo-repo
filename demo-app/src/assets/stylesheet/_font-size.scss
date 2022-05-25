@@ -1,0 +1,13 @@
+
+@mixin size($amount, $className) {
+  @each $size in $amount {
+    #{'.'+$className+ '-' + $size } {
+      font-size: #{$size}px !important;
+
+      @if $className == 's' {
+        width: #{$size}px !important;
+        height: #{$size}px !important;
+      }
+    }
+  }
+}

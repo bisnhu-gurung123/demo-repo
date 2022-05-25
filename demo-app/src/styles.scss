@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/stylesheet/mixin";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+  --primary:#F3F3A1;
+  --secondary:#000;
+  --higher:#00CED1;
+  --color:#ffffff;
+  --danger:teal;
+  --font:18px;
+  --ffamily:sans-serif;
+  --btncolor:#00FFFF;
+  --bold:bold;
+}
+

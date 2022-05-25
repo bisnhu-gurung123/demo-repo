@@ -1,0 +1,7 @@
+@mixin v-align($alignment) {
+  @each $valign in $alignment {
+    .ver-#{$valign} {
+      vertical-align: $valign;
+    }
+  }
+}
