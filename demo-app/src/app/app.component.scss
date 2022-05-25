@@ -1,37 +1,9 @@
 .container {
-  width: 1680px;
+  width: 1280px;
   margin: auto;
 }
 
-.logo {
-  height: 80px;
-  margin-left: -80px;
-}
-
-ul li {
-  display: inline-block;
-  text-decoration: none;
-  list-style: none;
-  padding: 15px;
-  font-size: var(--font);
-  font-weight: lighter;
-}
-
-.img {
-  background-size: contain;
-}
-
-.btn {
-  background-color: var(--higher);
-  height: 60px;
-  width: 180px;
-  border-radius: 10px;
-  color: var(--color);
-  font-weight: bold;
-}
-
 .product {
-  width: 220px;
   border-radius: 10px;
   background-color: var(--higher);
   color: #ffffff;
@@ -40,22 +12,9 @@ ul li {
   font-size: 18px;
   margin-left: 20px;
 }
-
-.title {
-  font-weight: bolder;
-}
-
-.test {
-  paddding-right: 20px;
-}
-
 .text {
   margin: 20px 0px 0px 60px;
   font-family: var(--ffamily);
-}
-
-.search_btn {
-  padding-left: 15px;
 }
 
 .main_card {

@@ -1,0 +1,55 @@
+.container {
+  width: 1690px;
+  margin: auto;
+}
+
+.logo {
+  height: 90px;
+  margin-left: -80px;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.shop-btn {
+  padding: 25px 25px;
+}
+.nav-underline {
+  text-decoration: underline;
+}
+
+.nav-text {
+  color: #a8a5a5;
+}
+
+.img {
+  background-size: contain;
+}
+
+.nav-btn {
+  background-color: var(--higher);
+  height: 60px;
+  width: 190px;
+  border-radius: 8px;
+  color: var(--color);
+  font-weight: var(--bold);
+  font-size: var(--font);
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.test {
+  paddding-right: 20px;
+}
+
+.search_btn {
+  padding: 20px;
+}
