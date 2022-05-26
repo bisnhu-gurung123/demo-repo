@@ -1,17 +1,26 @@
 .container {
-  width: 1680px;
+  width: 1690px;
   margin: auto;
 }
 
 .card_A {
   background-image: url("../assets/image/d1.jpeg");
-  height: 350px;
+  height: 390px;
   width: 100%;
   margin-top: 100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.product {
+  width: 220px;
+  border-radius: 8px;
+  background-color: var(--higher);
+  color: #ffffff;
+  font-weight: bolder;
+  padding: 8px;
+  font-size: 18px;
+}
 .paragraph {
   color: var(--color);
   justify-content: center;
