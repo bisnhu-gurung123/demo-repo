@@ -1,0 +1,49 @@
+.container {
+  width: 1680px;
+  margin: auto;
+}
+.product__card--item {
+  padding: 24px;
+  margin-top: 30px;
+  background: rgba(#a9a9a9, 0.2);
+
+  & img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
+  padding: 20px;
+  height: 100%;
+}
+
+.product {
+  &__header {
+    color: var(--secondary);
+    font: var(--lfont);
+    font-weight: var(--bold);
+  }
+
+  &__btn {
+    background-color: var(--secondary);
+    width: 190px;
+    color: var(--color);
+  }
+
+  &__icon {
+    color: var(--secondary);
+  }
+
+  &__slider {
+    color: var(--secondary);
+  }
+}
+
+.card__title {
+  font-weight: bolder;
+}
+
+
+
