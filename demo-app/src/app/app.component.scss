@@ -72,62 +72,6 @@
   height: 100%;
 }
 
-.contact-box {
-  height: 650px;
-  background-color: var(--higher);
-  margin-top: 20px;
-}
-
-.form {
-  width: 550px;
-  background-color: var(--color);
-  padding: 40px 30px;
-}
-
-.contact-form__title {
-  color: var(--color);
-  font-weight: bolder;
-
-}
-
-.contact-form__description {
-  color: var(--color);
-  font-size: var(--font);
-  font-weight: var(--bold);
-}
-
-.contact-form__data {
-  color: var(--color);
-  font-weight: var(--bold);
-}
-
-.contact-form__icon {
-  color: var(--color);
-}
-
-.form-field__text {
-  //padding-right: 100px;
-  //margin-top: 30px;
-
-  & textarea {
-    resize: none;
-  }
-}
-
-.form-field {
-  width: 100%;
-}
-
-.form-field__btn {
-  width: 100%;
-  border-radius: 10px;
-  background-color: #d72424;
-  color: var(--color);
-  font-weight: bolder;
-  padding: 5px;
-  font-size: var(--font);
-  margin-top: 20px;
-}
 
 .main-footer {
   margin-top: 50px;
