@@ -1,0 +1,40 @@
+.container {
+  width: 1680px;
+  margin: auto;
+}
+
+.footer {
+  height: 550px;
+  width: 100%;
+  background-color: var(--higher);
+
+  &__line {
+    width: 1300px;
+    background-color: var(--color);
+  }
+
+  &__title {
+    color: var(--color);
+  }
+
+  &__description {
+    & p {
+      color: white;
+      font-weight: var(--bold);
+    }
+
+  }
+
+  &__terms {
+    color: var(--color);
+    font-weight: var(--bold);
+  }
+
+  &__icon {
+    color: var(--color);
+  }
+
+}
+
+
+
