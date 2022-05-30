@@ -1,4 +1,6 @@
-@import "assets/stylesheet/mixin";
+@import "assets/stylesheet/_mixin";
+@import "assets/stylesheet/_variables.scss";
+@import "assets/stylesheet/_utilities.scss";
 @import "assets/stylesheet/_utilities";
 @import "assets/stylesheet/_variables";
 html, body { height: 100%; }

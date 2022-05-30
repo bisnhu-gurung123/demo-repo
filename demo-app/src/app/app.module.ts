@@ -35,6 +35,7 @@ import { ContactComponent } from './contact/contact.component';
         MatDividerModule,
         MatButtonModule,
         MatInputModule,
+
     ],
   providers: [],
   bootstrap: [AppComponent]
