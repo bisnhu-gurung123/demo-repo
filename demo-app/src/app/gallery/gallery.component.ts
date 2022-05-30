@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-gallery',
@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
+  products = [
+    {path: '../assets/image/m1.jpg'},
+    {path: '../assets/image/m2.jpg'},
+    {path: '../assets/image/m3.jpg'},
+    {path: '../assets/image/m4.jpg'},
+    {path: '../assets/image/m1.jpg'},
+    {path: '../assets/image/m2.jpg'},
+    {path: '../assets/image/m3.jpg'},
+  ];
 }
