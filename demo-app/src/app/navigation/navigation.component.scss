@@ -1,0 +1,44 @@
+
+.navigation {
+
+  &__list {
+
+    ul li {
+      display: inline-block;
+      text-decoration: none;
+      list-style: none;
+      font-size: 20px;
+      font-weight: lighter;
+    }
+
+  }
+
+  &__logo {
+    height: 90px;
+  }
+
+  &__text {
+    color: var(--grey);
+  }
+
+  &__img {
+    background-size: contain;
+  }
+
+  &__member {
+    background-color: var(--secondary);
+    height: 60px;
+    width: 190px;
+    color: var(--color);
+    font-weight: bold;
+    font-size: var(--font);
+  }
+
+
+}
+
+
+
+
+
+
