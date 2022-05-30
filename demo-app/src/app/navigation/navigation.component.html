@@ -1,36 +1,36 @@
-<div class="container" fxLayout="row" fxLayoutAlign="space-between center">
+<div fxLayout="row" fxLayoutAlign="space-between center" class="navigation">
   <div fxLayout="row" fxLayoutAlign="space-between start" fxLayoutGap="35px">
-    <div class="logo">
-      <img  class="img" src="../assets/image/logo.svg" height="110px" width="240px"  alt="swiss logo">
+    <div class="navigation__logo">
+      <img src="../assets/image/logo.svg" height="110px" width="240px" alt="swiss logo">
     </div>
-    <div>
-      <ul>
-        <li>Product
-          <mat-icon>keyboard_arrow_down</mat-icon>
-        </li>
-        <li>Ticket
-          <mat-icon>keyboard_arrow_down</mat-icon>
-        </li>
+    <div class="navigation__list my-12">
+      <ul fxLayout="row" fxLayoutAlign="center center">
+        <div fxLayout="row" fxLayoutAlign="center center">
+          <li fxLayoutAlign="center center" class="navigation__item px-12">Product
+            <mat-icon class="navigation__icon">keyboard_arrow_down</mat-icon>
+          </li>
+          <li fxLayoutAlign="center center" class="navigation__item  px-16">Ticket
+            <mat-icon>keyboard_arrow_down</mat-icon>
+          </li>
+        </div>
         <li>About-Us</li>
-        <mat-icon class="shop-btn">add_shopping_cart</mat-icon>
+        <mat-icon class="navigation__add py-16 px-32">add_shopping_cart</mat-icon>
         <mat-icon>account_box</mat-icon>
       </ul>
     </div>
   </div>
-  <div fxLayout="row" fxLayoutAlign="space-between center">
+  <div fxLayout="row" fxLayoutAlign="space-between center" class="mr-36">
+    <button class="navigation__member b-8" mat-flat-button>Become A Member</button>
     <div>
-      <button class="nav-btn" mat-flat-button>Become A Member</button>
+      <mat-icon class="navigation__search px-20">search</mat-icon>
     </div>
-    <div>
-      <mat-icon class="search_btn">search</mat-icon>
-    </div>
-    <div class="end-nav" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="15px">
-      <div class="nav-underline">EN</div>
-      <div class="nav-text">DE</div>
-      <div class="nav-text">FR</div>
+    <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="15px">
+      <div class="navigation__text">EN</div>
+      <div class="navigation__text">DE</div>
+      <div class="navigation__text">FR</div>
     </div>
   </div>
 </div>
-<div class="main">
-  <img src="../assets/image/main.jpg" width="100%" height="750px">
+<div class="navigation__img my-8">
+  <img src="../assets/image/main.jpg" width="100%" height="750px" alt="swiss ski image">
 </div>
