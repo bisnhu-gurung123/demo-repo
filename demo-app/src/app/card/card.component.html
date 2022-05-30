@@ -16,10 +16,10 @@
     <div class="box__card">
       <img src="../assets/image/m1.jpg" height="100%" width="100%" alt="swiss shirt">
       <div class="box__btn px-24 py-24">
-        <button mat-raised-button class="box__view  px-12 py-8 b-8"> View Product</button>
+        <button mat-raised-button class="box__view px-12 py-8 b-8"> View Product</button>
       </div>
     </div>
-    <div class="box__card">
+    <div class="box__card" *ngFor="let boxitem of[1,2,3]">
       <img src="../assets/image/m3.jpg" height="100%" width="100%" alt="swiss bag">
       <div class="box__btn px-24 py-24">
         <span class="box__title">Ski-Swiss T-shirts</span>
@@ -27,22 +27,6 @@
         </p>
       </div>
     </div>
-
-    <div class="box__card">
-      <img src="../assets/image/m2.jpg" height="100%" width="100%" alt="swiss bag">
-      <div class="box__btn px-24 py-24">
-        <span class="box__title">Ski-Swiss T-shirts</span>
-        <p class="box__description">Lorem ipsum dolor sit amet
-        </p>
-      </div>
-    </div>
-    <div class="box__card">
-      <img src="../assets/image/m4.jpg" height="100%" width="100%" alt="swiss bag">
-      <div class="box__btn px-24 py-24">
-        <span class="box__title">Ski-Swiss T-shirts</span>
-        <p class="box__description">Lorem ipsum dolor sit amet
-        </p>
-      </div>
     </div>
   </div>
-</div>
+
