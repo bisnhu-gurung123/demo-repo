@@ -47,7 +47,7 @@
   &__btn {
     width: 100%;
     border-radius: 10px;
-    background-color: #d72424;
+    background-color: var(--btncolor);
     color: var(--color);
     font-weight: bolder;
     font-size: var(--font);
