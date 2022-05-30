@@ -1,77 +1,55 @@
-.container {
-  width: 1680px;
-  margin: auto;
-}
+.content {
+  &__box {
+    background-image: url("../../assets/image/t1.jpg");
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.card_A {
-  background-image: url("../../assets/image/t1.jpg");
-  height: 390px;
-  width: 100%;
-  margin-top: 100px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  &__product {
+    width: 220px;
+    background-color: var(--secondary);
+    color: var(--color);
+    font-weight: bolder;
+    font-size: var(--font);
+  }
 
-.product {
-  width: 220px;
-  border-radius: 10px;
-  background-color: var(--higher);
-  color: #ffffff;
-  font-weight: bolder;
-  padding: 10px;
-  font-size: 18px;
-  margin-left: 20px;
-}
+  &__paragraph {
+    color: var(--color);
+    justify-content: center;
+    margin: 100px 0px 0px 80px;
+    font-size: 18px;
+    font-family: var(--ffamily);
+  }
 
-.paragraph {
-  color: var(--color);
-  justify-content: center;
-  margin: 100px 0px 0px 80px;
-  font-size: 18px;
-  font-family: var(--ffamily);
-}
+  &__title {
+    font-size: 35px;
+    font-color: var(--color);
+    font-weight: bolder;
+  }
 
-.paragraph-title {
-  margin-bottom: 26px;
-  font-size: 35px;
-  font-family: var(--ffamily);
-  font-color: var(--color);
-  font-weight: bolder;
-}
+  &__gift {
+    height: 450px;
+    width: 100%;
+    background-color: var(--bgcolor);
+  }
 
-.paragraph-text {
-  font-size: 18px;
-  font-family: var(--ffamily);
-  font-color: var(--color);
-  font-weight: var(--bold);
-  padding-top: 15px;
-}
+  &__header {
+    color: var(--color);
+  }
+
+  &__img {
+    height: 350px;
+    width: 350px;
+    background-color: #A9A9A9;
+  }
+
+  &__text {
+    color: var(--color);
+    font-size: var(--font);
+    font-weight: var(--bold);
+  }
 
 
-.paragraph__btn {
-  margin-top: 40px;
-}
-
-.card-B {
-  height: 450px;
-  width: 100%;
-  background-color: #696969;
-}
-
-.card-B__box {
-  height: 350px;
-  width: 350px;
-  background-color: #a9a9a9;
-  margin-left: 50px;
-}
-
-.card-B__text {
-  color: #FFFFFF;
-  font-size: var(--font);
-  font-weight: var(--bold);
-  padding: 20px;
-}
-
-.card-B_Img {
-  margin: 50px 0px 0px 50px;
 }
