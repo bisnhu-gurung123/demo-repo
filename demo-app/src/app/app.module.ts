@@ -35,6 +35,7 @@ import { ContentComponent } from './content/content.component';
         MatDividerModule,
         MatButtonModule,
         MatInputModule,
+
     ],
   providers: [],
   bootstrap: [AppComponent]
