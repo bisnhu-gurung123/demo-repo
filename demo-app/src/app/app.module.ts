@@ -17,12 +17,16 @@ import {MatInputModule} from "@angular/material/input";
 import { GalleryComponent } from './gallery/gallery.component';
 import {NavigationComponent} from "./navigation/navigation.component";
 
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
     NavigationComponent,
+    FooterComponent,
+
   ],
     imports: [
         BrowserModule,
