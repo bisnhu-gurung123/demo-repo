@@ -35,6 +35,7 @@ import { FooterComponent } from './footer/footer.component';
         MatDividerModule,
         MatButtonModule,
         MatInputModule,
+
     ],
   providers: [],
   bootstrap: [AppComponent]
