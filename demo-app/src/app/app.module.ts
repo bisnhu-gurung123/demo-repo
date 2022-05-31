@@ -16,14 +16,13 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatInputModule} from "@angular/material/input";
 import { GalleryComponent } from './gallery/gallery.component';
 import {NavigationComponent} from "./navigation/navigation.component";
-import { CardComponent } from './card/card.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
     NavigationComponent,
-    CardComponent,
   ],
     imports: [
         BrowserModule,
@@ -39,6 +38,7 @@ import { CardComponent } from './card/card.component';
         MatDividerModule,
         MatButtonModule,
         MatInputModule,
+
     ],
   providers: [],
   bootstrap: [AppComponent]
