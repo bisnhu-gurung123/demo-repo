@@ -1,0 +1,55 @@
+.content {
+  &__box {
+    background-image: url("../../assets/image/t1.jpg");
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__product {
+    width: 220px;
+    background-color: var(--secondary);
+    color: var(--color);
+    font-weight: bolder;
+    font-size: var(--font);
+  }
+
+  &__paragraph {
+    color: var(--color);
+    justify-content: center;
+    margin: 100px 0px 0px 80px;
+    font-size: 18px;
+    font-family: var(--ffamily);
+  }
+
+  &__title {
+    font-size: 35px;
+    font-color: var(--color);
+    font-weight: bolder;
+  }
+
+  &__gift {
+    height: 450px;
+    width: 100%;
+    background-color: var(--bgcolor);
+  }
+
+  &__header {
+    color: var(--color);
+  }
+
+  &__img {
+    height: 350px;
+    width: 350px;
+    background-color: #A9A9A9;
+  }
+
+  &__text {
+    color: var(--color);
+    font-size: var(--font);
+    font-weight: var(--bold);
+  }
+
+
+}
