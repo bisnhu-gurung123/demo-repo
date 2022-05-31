@@ -1,12 +1,11 @@
 @import "box-model";
 //@include size((20), 's');
 //@include v-align((middle, sub, text-bottom));
-@include boxModel((4, 8, 16, 32, 36), 'py', ('padding-top', 'padding-bottom'));
-@include boxModel((4, 8, 16, 20, 32, 36,40,44), 'px', ('padding-right', 'padding-left'));
-@include boxModel((4, 8,12,16,32), 'my', ('margin-top', 'margin-bottom'));
-@include boxModel((4, 8, 16, 32, 36), 'mx', ('margin-left', 'margin-right'));
-@include boxModel((4, 8, 16, 32, 36), 'mr', 'margin-right');
-@include boxModel((8), 'b', 'border-radius');
+@include boxModel((4, 8, 16,20,24,28,32,36), 'py', ('padding-top', 'padding-bottom'));
+@include boxModel((4, 8, 16,16,20,24,28,32,36,40), 'px', ('padding-right', 'padding-left'));
+@include boxModel((4, 8,16,20,24,28,32,36,40,44), 'my', ('margin-top', 'margin-bottom'));
+@include boxModel((4, 8,16,20,24,28,32,36,40,44), 'ml', ('margin-left', 'margin-right'));
+@include boxModel((12), 'b', 'border-radius');
 //@include color(('primary')primary, 'bg','background-color');
 
 @mixin boxModel($values, $className, $direction) {

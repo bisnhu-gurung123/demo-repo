@@ -1,0 +1,46 @@
+<div class="footer container my-32" fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="95px">
+  <div>
+    <div>
+      <img class="footer__img py-12 px-12 my-32" src="../assets/image/logo.svg">
+      <mat-divider class="footer__line"></mat-divider>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="300px">
+    <div class="footer__description">
+      <p>The Swiss Ski to intiate the mass <br>
+        campaign for all its upcoming products<br>
+        The Swiss Ski to intiate the mass</p>
+      <p>
+        <button mat-raised-button>demo button</button>
+      </p>
+    </div>
+    <div class="footer__description" *ngFor="let footerItem of[1,2,3]">
+      <h2 class="footer__title">Shop</h2>
+      <p>kid</p>
+      <p>women</p>
+      <p>Men</p>
+      <p>Ski</p>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="840px">
+    <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="40px">
+      <p class="footer__terms">Terms And Conditions</p>
+      <p class="footer__terms">Privacy Policy</p>
+    </div>
+    <div class="instagram" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="35px">
+      <p class="footer__icon">
+        <mat-icon>facebook</mat-icon>
+      </p>
+      <p class="footer__icon">
+        <mat-icon> chat</mat-icon>
+      </p>
+      <p class="footer__icon">
+        <mat-icon> sentiment_satisfied_alt</mat-icon>
+      </p>
+      <p class="footer__icon">
+        <mat-icon>drafts</mat-icon>
+      </p>
+    </div>
+  </div>
+</div>
+
