@@ -15,11 +15,13 @@ import {MatDividerModule} from "@angular/material/divider";
 import {MatButtonModule} from "@angular/material/button";
 import {MatInputModule} from "@angular/material/input";
 import { FooterComponent } from './footer/footer.component';
+import {NavigationComponent} from "./navigation/navigation.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
+    NavigationComponent,
   ],
     imports: [
         BrowserModule,
