@@ -14,14 +14,12 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatButtonModule} from "@angular/material/button";
 import {MatInputModule} from "@angular/material/input";
-import {NavigationComponent} from "./navigation/navigation.component";
 import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
-    CardComponent,
+    CardComponent
   ],
     imports: [
         BrowserModule,
@@ -37,7 +35,6 @@ import { CardComponent } from './card/card.component';
         MatDividerModule,
         MatButtonModule,
         MatInputModule,
-
     ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,55 @@
+.container {
+  width: 1690px;
+  margin: auto;
+}
+
+.box {
+  &__title {
+    color: var(--bolder);
+    font-size: var(--font);
+    font-weight: bold;
+  }
+
+  &__product {
+    color: var(--secondary);
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  &__card {
+    height: 250px;
+    width: 310px;
+    border: none;
+
+    & img {
+      transform: translateY(8px);
+    }
+  }
+
+  &__icon {
+    color: var(--secondary);
+  }
+
+  &__btn {
+    background: rgba(#A9A9A9, 0.2);
+  }
+
+  &__description {
+    font-weight: lighter;
+  }
+
+  &__view {
+    width: 220px;
+    background-color: var(--secondary);
+    color: var(--color);
+    font-weight: bolder;
+    font-size: var(--font);
+  }
+
+}
+
+.mat-card:not([class*="mat-elevation-z"]) {
+  box-shadow: none;
+  padding: 0;
+  height: 100%;
+}
