@@ -25,6 +25,7 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     FooterComponent,
     NavigationComponent,
+    GalleryComponent,
   ],
     imports: [
         BrowserModule,
