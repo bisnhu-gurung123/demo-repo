@@ -23,10 +23,8 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GalleryComponent,
-    NavigationComponent,
     FooterComponent,
-
+    NavigationComponent,
   ],
     imports: [
         BrowserModule,
@@ -42,7 +40,6 @@ import { FooterComponent } from './footer/footer.component';
         MatDividerModule,
         MatButtonModule,
         MatInputModule,
-
     ],
   providers: [],
   bootstrap: [AppComponent]

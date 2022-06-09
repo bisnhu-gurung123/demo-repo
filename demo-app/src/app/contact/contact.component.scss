@@ -1,0 +1,60 @@
+.container {
+  width: 1680px;
+  margin: auto;
+}
+.contact {
+  height: 650px;
+  background-color: var(--secondary);
+}
+.contact {
+  &__title {
+    color: var(--color);
+    font-weight: bolder;
+
+  }
+
+  &__description {
+    color: var(--color);
+    font-size: var(--font);
+    font-weight: var(--bold);
+  }
+
+  &__data {
+    color: var(--color);
+    font-weight: var(--bold);
+  }
+
+  &__icon {
+    color: var(--color);
+  }
+}
+
+.form {
+  width: 550px;
+  background-color: var(--color);
+
+  &__text {
+
+    & textarea {
+      resize: none;
+    }
+  }
+
+  &__field {
+    width: 100%;
+  }
+
+  &__btn {
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--btncolor);
+    color: var(--color);
+    font-weight: bolder;
+    font-size: var(--font);
+  }
+}
+
+
+
+
+
