@@ -14,12 +14,17 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatButtonModule} from "@angular/material/button";
 import {MatInputModule} from "@angular/material/input";
-import { ContactComponent } from './contact/contact.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import {NavigationComponent} from "./navigation/navigation.component";
+
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent,
+    FooterComponent,
+    NavigationComponent,
   ],
     imports: [
         BrowserModule,

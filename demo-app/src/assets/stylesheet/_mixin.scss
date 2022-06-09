@@ -6,6 +6,11 @@
 @include boxModel((4, 8,16,20,24,28,32,36,40,44), 'my', ('margin-top', 'margin-bottom'));
 @include boxModel((4, 8,16,20,24,28,32,36,40,44), 'ml', ('margin-left', 'margin-right'));
 @include boxModel((12), 'b', 'border-radius');
+@include boxModel((4, 8, 16, 20), 'py', ('padding-top', 'padding-bottom'));
+@include boxModel((4, 8, 16, 20), 'px', ('padding-right', 'padding-left'));
+@include boxModel((4, 8, 16, 20), 'pl', ('padding-right', 'padding-left'));
+//@include boxModel((4, 8,), 'my', ('margin-top', 'margin-bottom'));
+//@include boxModel((4), 'b', 'border-radius');
 //@include color(('primary')primary, 'bg','background-color');
 
 @mixin boxModel($values, $className, $direction) {

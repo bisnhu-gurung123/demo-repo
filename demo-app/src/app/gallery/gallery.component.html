@@ -1,0 +1,32 @@
+<div fxLayout="column" class="product container">
+  <div fxLayout="row" fxLayoutAlign="space-between center">
+    <div>
+      <p class="product__header">Featured Product</p>
+      <p class="product__text">CSS is the language we use to style an HTML document.CSS describes how HTML elements.</p>
+    </div>
+    <div fxLayoutAlign="center">
+      <p class="product__header">All Products</p>
+      <mat-icon class="product__slider">keyboard_arrow_right</mat-icon>
+    </div>
+  </div>
+  <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="start center"
+       fxLayoutGap="24px">
+    <mat-card class="product__card">
+      <img src="../assets/image/m3.jpg">
+      <div class="py-12">
+        <button mat-raised-button class="product__btn">View Products</button>
+      </div>
+    </mat-card>
+
+    <ng-container *ngFor="let item of products">
+      <mat-card class="product__card">
+        <img [src]="item.path">
+        <div>
+          <p class="product__title">Ski-Swiss T-shirts</p>
+          <p>Lorem ipsum dolor sit amet</p>
+        </div>
+      </mat-card>
+    </ng-container>
+  </div>
+</div>
+
